@@ -1,4 +1,4 @@
 #!/bin/sh
 # Start of the pre-commit hook
-
+. "$(dirname "$0")/_/husky.sh"
 npm run lint
