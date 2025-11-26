@@ -1,4 +1,5 @@
 # 🚀 REST Client
+
 ### Final Team Project (RS React Course)
 
 This project is the final team assignment of the **RS School React Course**.  
@@ -138,18 +139,18 @@ npm install
 
 ### 3. Configure environment variables
 
-Rename the `example.env` to `.env`:
+Copy the `example.env` to `.env`:
 
 - Linux / MacOS:
 
 ```bash
-mv example.env .env
+cp .env.example .env
 ```
 
 - Windows (CMD)::
 
 ```bash
-rename example.env .env
+copy .env.example .env
 ```
 
 ### 4. Set up the database
